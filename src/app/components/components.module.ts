@@ -7,5 +7,6 @@ import { SecondoTaskComponent } from './secondo-task/secondo-task.component';
   imports: [BrowserModule],
   declarations: [PrimoTaskComponent, SecondoTaskComponent],
   bootstrap: [],
+  exports: [PrimoTaskComponent, SecondoTaskComponent]
 })
 export class ComponentsModule {}
